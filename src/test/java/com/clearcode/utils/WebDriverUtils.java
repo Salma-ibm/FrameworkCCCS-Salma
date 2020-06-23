@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -42,6 +43,8 @@ public class WebDriverUtils {
 				switch(browser)
 				{
 				case "gc":
+					ChromeOptions opt = new ChromeOptions();
+					opt.setAcceptInsecureCerts(true);
 					b = "Google Chrome";
 					WebDriverManager.chromedriver().setup();
 					driver = new ChromeDriver();
@@ -246,6 +249,21 @@ public class WebDriverUtils {
 		
 		public void switchOut() {
 			driver.switchTo().defaultContent();
+		}
+		
+		public void enableCheckbox(By loc) {
+			WebElement e = find(loc);
+			if(!e.isSelected())
+			{
+				e.click();
+			}
+			ATUReports.add("Select Checkbox/ Radio Button ",loc.toString(), LogAs.PASSED, new CaptureScreen(
+                    ScreenshotOf.BROWSER_PAGE));
+//			WebElement e = driver.findElement(loc);
+//			if(!e.isSelected())
+//			{
+//				e.click();
+//			}
 		}
 		
 		public void exit() {
