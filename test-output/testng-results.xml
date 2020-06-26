@@ -280,68 +280,20 @@
     <line>
       <![CDATA[STEP93]]>
     </line>
-    <line>
-      <![CDATA[STEP94]]>
-    </line>
-    <line>
-      <![CDATA[STEP95]]>
-    </line>
-    <line>
-      <![CDATA[STEP96]]>
-    </line>
-    <line>
-      <![CDATA[STEP97]]>
-    </line>
-    <line>
-      <![CDATA[STEP98]]>
-    </line>
-    <line>
-      <![CDATA[STEP99]]>
-    </line>
-    <line>
-      <![CDATA[STEP100]]>
-    </line>
-    <line>
-      <![CDATA[STEP101]]>
-    </line>
-    <line>
-      <![CDATA[STEP102]]>
-    </line>
-    <line>
-      <![CDATA[STEP103]]>
-    </line>
-    <line>
-      <![CDATA[STEP104]]>
-    </line>
-    <line>
-      <![CDATA[STEP105]]>
-    </line>
-    <line>
-      <![CDATA[STEP106]]>
-    </line>
-    <line>
-      <![CDATA[STEP107]]>
-    </line>
-    <line>
-      <![CDATA[STEP108]]>
-    </line>
-    <line>
-      <![CDATA[STEP109]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="111120" started-at="2020-06-23T22:08:23 IST" finished-at="2020-06-23T22:10:14 IST">
+  <suite name="Default suite" duration-ms="89329" started-at="2020-06-26T11:27:44 IST" finished-at="2020-06-26T11:29:13 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="111120" started-at="2020-06-23T22:08:23 IST" finished-at="2020-06-23T22:10:14 IST">
-      <class name="com.clearcode.testsuite.TestSuite2">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="launch" is-config="true" duration-ms="8745" started-at="2020-06-23T22:08:23 IST" finished-at="2020-06-23T22:08:32 IST">
+    <test name="Default test" duration-ms="89329" started-at="2020-06-26T11:27:44 IST" finished-at="2020-06-26T11:29:13 IST">
+      <class name="com.clearcode.testsuite.TestSuite1">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="launch" is-config="true" duration-ms="8395" started-at="2020-06-26T11:27:44 IST" finished-at="2020-06-26T11:27:52 IST">
           <reporter-output>
             <line>
               <![CDATA[STEP1]]>
             </line>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="loadUrl" is-config="true" duration-ms="3895" started-at="2020-06-23T22:08:32 IST" finished-at="2020-06-23T22:08:36 IST">
+        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="loadUrl" is-config="true" duration-ms="3529" started-at="2020-06-26T11:27:53 IST" finished-at="2020-06-26T11:27:56 IST">
           <reporter-output>
             <line>
               <![CDATA[STEP2]]>
@@ -351,7 +303,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="CreateCCGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="CreateCCGroup" duration-ms="26539" started-at="2020-06-23T22:08:36 IST" data-provider="createStudent1" finished-at="2020-06-23T22:09:03 IST">
+        <test-method status="PASS" signature="CreateCCGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="CreateCCGroup" duration-ms="20012" started-at="2020-06-26T11:27:56 IST" data-provider="createStudent" finished-at="2020-06-26T11:28:16 IST">
           <params>
             <param index="0">
               <value>
@@ -360,17 +312,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Regular customer]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Regular customer]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Regular customer]]>
               </value>
             </param>
             <param index="4">
@@ -468,31 +420,19 @@
             <line>
               <![CDATA[STEP24]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- CreateCCGroup -->
+        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="loadUrl" is-config="true" duration-ms="1077" started-at="2020-06-26T11:28:16 IST" finished-at="2020-06-26T11:28:17 IST">
+          <reporter-output>
             <line>
               <![CDATA[STEP25]]>
             </line>
             <line>
               <![CDATA[STEP26]]>
             </line>
-            <line>
-              <![CDATA[STEP27]]>
-            </line>
-            <line>
-              <![CDATA[STEP28]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateCCGroup -->
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="loadUrl" is-config="true" duration-ms="1200" started-at="2020-06-23T22:09:03 IST" finished-at="2020-06-23T22:09:04 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[STEP29]]>
-            </line>
-            <line>
-              <![CDATA[STEP30]]>
-            </line>
           </reporter-output>
         </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="CreateCCGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="CreateCCGroup" duration-ms="23096" started-at="2020-06-23T22:09:04 IST" data-provider="createStudent1" finished-at="2020-06-23T22:09:27 IST">
+        <test-method status="PASS" signature="CreateCCGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="CreateCCGroup" duration-ms="17708" started-at="2020-06-26T11:28:17 IST" data-provider="createStudent" finished-at="2020-06-26T11:28:35 IST">
           <params>
             <param index="0">
               <value>
@@ -501,27 +441,27 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Blazer Girls(II-V)]]>
+                <![CDATA[Premium Customer]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Premium Customer]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Premium Customer]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[]]>
+                <![CDATA[meera]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[]]>
+                <![CDATA[lakshmi]]>
               </value>
             </param>
             <param index="6">
@@ -546,6 +486,18 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[STEP27]]>
+            </line>
+            <line>
+              <![CDATA[STEP28]]>
+            </line>
+            <line>
+              <![CDATA[STEP29]]>
+            </line>
+            <line>
+              <![CDATA[STEP30]]>
+            </line>
             <line>
               <![CDATA[STEP31]]>
             </line>
@@ -597,12 +549,72 @@
             <line>
               <![CDATA[STEP47]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- CreateCCGroup -->
+        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="loadUrl" is-config="true" duration-ms="1150" started-at="2020-06-26T11:28:35 IST" finished-at="2020-06-26T11:28:36 IST">
+          <reporter-output>
             <line>
               <![CDATA[STEP48]]>
             </line>
             <line>
               <![CDATA[STEP49]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- loadUrl -->
+        <test-method status="PASS" signature="CreateCCGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="CreateCCGroup" duration-ms="17766" started-at="2020-06-26T11:28:36 IST" data-provider="createStudent" finished-at="2020-06-26T11:28:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Data 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Basic]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Basic]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Basic]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pooja]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[nayak]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pooja@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7765432154]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
             <line>
               <![CDATA[STEP50]]>
             </line>
@@ -621,72 +633,12 @@
             <line>
               <![CDATA[STEP55]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- CreateCCGroup -->
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="loadUrl" is-config="true" duration-ms="1373" started-at="2020-06-23T22:09:27 IST" finished-at="2020-06-23T22:09:28 IST">
-          <reporter-output>
             <line>
               <![CDATA[STEP56]]>
             </line>
             <line>
               <![CDATA[STEP57]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="CreateCCGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="CreateCCGroup" duration-ms="23345" started-at="2020-06-23T22:09:28 IST" data-provider="createStudent1" finished-at="2020-06-23T22:09:52 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test Data 3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[White Socks]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[White Socks]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
             <line>
               <![CDATA[STEP58]]>
             </line>
@@ -726,12 +678,72 @@
             <line>
               <![CDATA[STEP70]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- CreateCCGroup -->
+        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="loadUrl" is-config="true" duration-ms="1071" started-at="2020-06-26T11:28:54 IST" finished-at="2020-06-26T11:28:55 IST">
+          <reporter-output>
             <line>
               <![CDATA[STEP71]]>
             </line>
             <line>
               <![CDATA[STEP72]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- loadUrl -->
+        <test-method status="PASS" signature="CreateCCGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="CreateCCGroup" duration-ms="18061" started-at="2020-06-26T11:28:55 IST" data-provider="createStudent" finished-at="2020-06-26T11:29:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Data 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Guest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rohini]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sharma]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[rohini@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9876509866]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[rohini]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[roini]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
             <line>
               <![CDATA[STEP73]]>
             </line>
@@ -762,72 +774,12 @@
             <line>
               <![CDATA[STEP82]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- CreateCCGroup -->
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="loadUrl" is-config="true" duration-ms="1267" started-at="2020-06-23T22:09:52 IST" finished-at="2020-06-23T22:09:53 IST">
-          <reporter-output>
             <line>
               <![CDATA[STEP83]]>
             </line>
             <line>
               <![CDATA[STEP84]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="CreateCCGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="CreateCCGroup" duration-ms="20870" started-at="2020-06-23T22:09:53 IST" data-provider="createStudent1" finished-at="2020-06-23T22:10:14 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test Data 4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[White Shirt]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[White Shirt]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[SHI-201]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[800]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Sports]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[700]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
             <line>
               <![CDATA[STEP85]]>
             </line>
@@ -855,61 +807,13 @@
             <line>
               <![CDATA[STEP93]]>
             </line>
-            <line>
-              <![CDATA[STEP94]]>
-            </line>
-            <line>
-              <![CDATA[STEP95]]>
-            </line>
-            <line>
-              <![CDATA[STEP96]]>
-            </line>
-            <line>
-              <![CDATA[STEP97]]>
-            </line>
-            <line>
-              <![CDATA[STEP98]]>
-            </line>
-            <line>
-              <![CDATA[STEP99]]>
-            </line>
-            <line>
-              <![CDATA[STEP100]]>
-            </line>
-            <line>
-              <![CDATA[STEP101]]>
-            </line>
-            <line>
-              <![CDATA[STEP102]]>
-            </line>
-            <line>
-              <![CDATA[STEP103]]>
-            </line>
-            <line>
-              <![CDATA[STEP104]]>
-            </line>
-            <line>
-              <![CDATA[STEP105]]>
-            </line>
-            <line>
-              <![CDATA[STEP106]]>
-            </line>
-            <line>
-              <![CDATA[STEP107]]>
-            </line>
-            <line>
-              <![CDATA[STEP108]]>
-            </line>
-            <line>
-              <![CDATA[STEP109]]>
-            </line>
           </reporter-output>
         </test-method> <!-- CreateCCGroup -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.clearcode.testsuite.TestSuite2@1f7030a6]" name="close" is-config="true" duration-ms="12" started-at="2020-06-23T22:10:14 IST" finished-at="2020-06-23T22:10:14 IST">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.clearcode.testsuite.TestSuite1@1f7030a6]" name="close" is-config="true" duration-ms="6" started-at="2020-06-26T11:29:13 IST" finished-at="2020-06-26T11:29:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.clearcode.testsuite.TestSuite2 -->
+      </class> <!-- com.clearcode.testsuite.TestSuite1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

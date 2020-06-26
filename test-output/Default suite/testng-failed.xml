@@ -5,7 +5,7 @@
     <classes>
       <class name="com.clearcode.testsuite.TestSuite2">
         <methods>
-          <include name="CreateCCGroup"/>
+          <include name="CreateCCGroup" invocation-numbers="0 1 2 3"/>
           <include name="launch"/>
           <include name="close"/>
           <include name="loadUrl"/>

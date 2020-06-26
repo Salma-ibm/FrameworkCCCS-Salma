@@ -23,9 +23,11 @@ public class ProductPage {
 	public static By adddisc_button = By.xpath("//*[@id=\"discount\"]/tfoot/tr/td[2]/button/i");
 	public static By qty1_ip = By.xpath("//*[@id=\"discount-row0\"]/td[2]/input");
 	public static By price1_ip = By.xpath("//*[@id=\"discount-row0\"]/td[4]/input");
+	
 	public static By dstart_ip = By.xpath("//*[@id=\"discount-row0\"]/td[5]/div/input");
 	public static By cdsicon_button = By.xpath("//*[@id=\"discount-row0\"]/td[5]/div/span/button/i");
 	public static By ctoday_button = By.xpath("/html/body/div[5]/div/div[1]/table/tbody/tr[4]/td[3]");
+	
 	public static By dend_ip = By.xpath("//*[@id=\"discount-row0\"]/td[6]/div/input");
 	public static By cdeicon_button = By.xpath("//*[@id=\"discount-row0\"]/td[6]/div/span/button/i");
 	public static By ctommo_button = By.xpath("/html/body/div[6]/div/div[1]/table/tbody/tr[4]/td[4]");
@@ -38,6 +40,7 @@ public class ProductPage {
 	
 	public static By ptitle_ip = By.xpath("//*[@id=\"content\"]/div[2]/div[1]");
 	
+
 	
 	
 }
