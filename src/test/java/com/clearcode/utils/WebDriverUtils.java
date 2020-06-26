@@ -278,5 +278,31 @@ public class WebDriverUtils {
 				ATUReports.add("Closing browser", LogAs.FAILED, new CaptureScreen(
 	                    ScreenshotOf.DESKTOP));
 			}
+	
+	}
+		
+		public void assertText1(By loc,String text) {
+			try
+			{
+			String Actual = find(loc).getText();
+			
+			if(text.contains(Actual))
+			{
+				System.out.println("String Match");
+			}
+			else
+			{
+				System.out.println("String not matched : "+ Actual);
+			}
+			
+			ATUReports.add("Assert Text",text, LogAs.PASSED, new CaptureScreen(
+                    ScreenshotOf.BROWSER_PAGE));
+			}
+			catch(AssertionError e) {
+				ATUReports.add("Assert Text",text, LogAs.FAILED, new CaptureScreen(
+	                    ScreenshotOf.BROWSER_PAGE));
+			}
 		}
+
 }
+

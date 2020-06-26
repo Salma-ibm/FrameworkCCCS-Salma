@@ -29,8 +29,9 @@ public class TestSuite1 extends TestSetup{
 		wdu.type(CustomerPage.desc_ip, description);
 		wdu.click(CustomerPage.radio_button);
 		wdu.click(CustomerPage.save_button);
-		System.out.println("Success: You have modified customer groups! ×");
-     	System.out.println(cgname);
+//		System.out.println("Success: You have modified customer groups! ×");
+//     	System.out.println(cgname);
+		wdu.assertText1(CustomerPage.title_ip, "Success: You have modified customer groups! ×");
 		wdu.mouseOver(CustomerPage.cust_button);
 		wdu.click(CustomerPage.custl_button);
 		wdu.click(CustomerPage.addcust_button);
@@ -42,7 +43,7 @@ public class TestSuite1 extends TestSetup{
 		wdu.type(CustomerPage.cpwd_ip, cpwd);
 		wdu.type(CustomerPage.cconfirmpwd_ip, cconfirmpwd);
 		wdu.click(CustomerPage.csave_button);
-//        wdu.assertText(CustomerPage.ctitle_ip, "Success: You have modified customer groups! ×");
+        wdu.assertText1(CustomerPage.ctitle_ip, " Warning: E-Mail Address is already registered!      ");
 //		wdu.assertTitle("Success: You have modified customer groups! ×");
 //     	System.out.println("Success: You have modified customer groups! ×");
 //     	System.out.println(cgname);

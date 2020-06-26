@@ -61,7 +61,7 @@ public void CreateCCGroup(String headerdesc, String prodname, String mtitle,Stri
 		wdu.click(ProductPage.reward_button);
 		wdu.type(ProductPage.point_ip, point);
 		wdu.click(ProductPage.psave_button);
-//    //    wdu.assertText(ProductPage.ptitle_ip, " Success: You have modified products!      ");
+        wdu.assertText1(ProductPage.ptitle_ip,"Success: You have modified products!");
 //////		wdu.assertTitle("Success: You have modified customer groups! ×");
 ////		System.out.println(prodname);
 ////        System.out.println(" Success: You have modified products!      ");

@@ -29,7 +29,6 @@
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.20</version>
 </dependency>
-
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
@@ -42,8 +41,7 @@
 	<scope>system</scope>
 	<systemPath>${project.basedir}/extLib/ATUReporter.jar</systemPath>
 </dependency>
-  </dependencies>
-  
+  </dependencies>  
   <build>
   	<plugins>
   		<plugin>
@@ -66,7 +64,5 @@
         </configuration>
       </plugin>
   	</plugins>
-  </build>
-  
-  
+  </build>  
 </project>
